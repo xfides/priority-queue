@@ -1,3 +1,4 @@
+
 const Node = require('../src/node');
 
 describe('Node', () => {
@@ -21,8 +22,8 @@ describe('Node', () => {
 
 		beforeEach(() => {
 			parent = new Node(42, 15);
-			leftChild = new Node(13, 20);
-			rightChild = new Node(98, 69);
+      leftChild = new Node(13, 20);
+      rightChild = new Node(98, 69);
 		});
 
 		it('assigns passed child to this.left', () => {
@@ -207,3 +208,4 @@ describe('Node', () => {
 		});
 	});
 });
+
